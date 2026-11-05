@@ -76,8 +76,14 @@ procedure that custom samplers are easy to skip.
 
 ## Install
 
-Copy this folder as `ComfyUI-FlowMomentum` into
-`ComfyUI/custom_nodes` and restart ComfyUI.
+```bash
+cd ComfyUI/custom_nodes
+git clone https://github.com/seren-alegro/ComfyUI-FlowMomentum
+# restart ComfyUI
+```
+
+Or copy this folder as `ComfyUI-FlowMomentum` into `ComfyUI/custom_nodes`
+manually, then restart ComfyUI.
 
 ## Tests
 
