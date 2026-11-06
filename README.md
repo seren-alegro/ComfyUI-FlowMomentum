@@ -58,7 +58,7 @@ warpable parameterisation.
 
 ## Verified on real hardware
 
-Tested on an RTX PRO 6000 (MIG 24 GB) pod, ComfyUI 0.44,
+Tested on an RTX PRO 6000 (MIG 24 GB) pod,mac studio m3 ultra 512gb, ComfyUI 0.44,
 Chiarezza 2.9B hybrid checkpoint:
 
 - Two-stage chain: Anima Flow Corrective (UniPC) → Flow Momentum
@@ -103,4 +103,4 @@ MIT
 Anima 계열 rectified-flow 모델용 커스텀 샘플러 팩이에요. 속도
 모멘텀(EMA), AB2 외삽, 시그마 그리드, 그리고 셋을 하나로 합친
 Unified 노드(노드 안에서 알고리즘 선택)를 담고 있어요. RTX PRO
-6000 포드에서 2단계 체인과 단독 실행 모두 실측을 마쳤어요.
+6000 포드와 mac studio m3 ultra 512gb에서 2단계 체인과 단독 실행 모두 실측을 마쳤어요.
