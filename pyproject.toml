@@ -5,6 +5,9 @@ description = "Rectified-flow sampler with velocity momentum (EMA) for ComfyUI, 
 license = "MIT"
 requires-python = ">=3.10"
 
+[project.urls]
+Repository = "https://github.com/seren-alegro/ComfyUI-FlowMomentum"
+
 [tool.comfy]
 PublisherId = "seren-alegro"
 DisplayName = "Flow Momentum Sampler"
